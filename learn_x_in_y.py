@@ -99,6 +99,13 @@ bool(()) # => False
 ### 2. Variables and collections 
 ###############################
 
+# Simple way to get inot data from console
+input_string_var = raw_input("please enter the input string: ") # Return the data as a string
+
+input_var = input("Enter some data: ") # Evaluate the data as python code 
+# Warning: Caution is recommended for input() method usage 
+# Note: I python3, input() is deprecated and raw_input is renamed to input()
+
 
 "yahoo!" if 3 > 2 else 2 # => "yahoo!" 
 
